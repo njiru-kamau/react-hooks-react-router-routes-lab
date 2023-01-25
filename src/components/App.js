@@ -1,8 +1,8 @@
 import Movies from "./Movies";
-
+import NavLink from "./NavLink";
 function App() {
    return <div>
-     <NavBar />
+     <NavLink />
   <Switch>
     <Route exact path= "/actors">
       <Actors />
